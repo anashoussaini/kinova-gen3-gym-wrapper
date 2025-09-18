@@ -140,4 +140,4 @@ Key kwargs (selected):
 ## Author
 
 Anas Houssaini
-McGill University | Kinova Robotics
+McGill University
