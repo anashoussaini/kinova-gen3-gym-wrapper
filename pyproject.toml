@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gen3-env"
+version = "0.1.0"
+description = "ROS 2 (Jazzy) Python environment for Kinova Gen3 with image shaping utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.23",
+  "Pillow>=9.5",
+  "matplotlib>=3.7",
+  "opencv-python>=4.8",
+]
+authors = [{name = "Anas Houssaini"}]
+license = {text = "MIT"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gen3_env*"]
